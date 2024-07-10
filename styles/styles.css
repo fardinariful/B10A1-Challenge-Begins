@@ -25,3 +25,150 @@ nav >button{
     color: #0D1321;
     gap: 10px;
 }
+
+.background {
+  background-image:url("../images/Hero-bg.png");
+  color: lightgray 50%;
+  background-repeat: no-repeat;
+  height: 652px;
+  align-items: center;
+  
+}
+
+.Banner_content{
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+    font-size:28px;
+      
+}
+
+.Banner_text2{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #0D1321;;
+}
+.image{
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.btn{
+    padding: 21px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #0D1321;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+main {
+    
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.container{
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    margin-top: 74px;
+}
+.container-title{
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.container-title > h1{
+    font-size:32px ;
+    font-weight: 800;
+}
+
+.container-title >p{
+    color: #0D1321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 48px;
+    padding: 48px 97px;
+}
+.container_text{
+
+}
+
+.container1 ,.container2,.container3{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+    gap: 20px;
+    padding: 48px 97px;
+}
+
+.Inspiration1{
+    text-align: center;
+    margin: 120px;
+}
+
+.image_container2{
+    width: 100%;
+    margin: 32px;
+  
+}
+
+.target_container1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.course{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+
+.new-courses{
+    display: flex;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    padding: 40px;
+    gap: 24px;
+}
+
+.support{
+    background-image:url("../images/handshake.jpg");
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 16px;
+    padding: 64px 48px;
+
+}
+
+.support_text{
+    text-align: center;
+}
+.email{
+    width: 548px;
+    height: auto;
+    border-radius: 8px;
+    border: none;
+}
+
+footer{
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+}
+
+.social_media{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
